@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" style="background:#0d1117">
+  <rect width="800" height="300" fill="#0d1117"/>
+  <text x="30" y="40" fill="#e6edf3" font-family="system-ui" font-size="24" font-weight="600">📈 Habit Tracker</text>
+  <text x="650" y="40" fill="#8b949e" font-family="system-ui" font-size="14">🔥 5 day streak</text>
+  
+  <!-- Header line -->
+  <line x1="30" y1="55" x2="770" y2="55" stroke="#30363d"/>
+  
+  <!-- Input box -->
+  <rect x="30" y="75" width="500" height="40" rx="6" fill="#161b22" stroke="#30363d"/>
+  <text x="45" y="100" fill="#8b949e" font-family="system-ui" font-size="14">Enter a new habit...</text>
+  <rect x="540" y="75" width="90" height="40" rx="6" fill="#238636"/>
+  <text x="570" y="100" fill="white" font-family="system-ui" font-size="14" font-weight="600">Add Habit</text>
+  
+  <!-- Habit card -->
+  <rect x="30" y="135" width="740" height="140" rx="6" fill="#161b22" stroke="#30363d"/>
+  
+  <!-- Habit title with checkbox -->
+  <text x="50" y="160" fill="#e6edf3" font-family="system-ui" font-size="16">✅ Exercise</text>
+  <text x="250" y="160" fill="#8b949e" font-family="system-ui" font-size="14">🔥 5</text>
+  
+  <!-- Buttons -->
+  <rect x="610" y="145" width="60" height="26" rx="4" fill="#21262d"/>
+  <text x="630" y="163" fill="#e6edf3" font-family="system-ui" font-size="12">Done</text>
+  
+  <rect x="680" y="145" width="60" height="26" rx="4" fill="#da3633"/>
+  <text x="700" y="163" fill="white" font-family="system-ui" font-size="12">Delete</text>
+  
+  <!-- Contribution grid simulation (simplified) -->
+  <g transform="translate(50, 185)">
+    <!-- Row 1 -->
+    <rect width="10" height="10" rx="2" fill="#0e4429"/><rect x="14" width="10" height="10" rx="2" fill="#0e4429"/><rect x="28" width="10" height="10" rx="2" fill="#006d32"/><rect x="42" width="10" height="10" rx="2" fill="#006d32"/><rect x="56" width="10" height="10" rx="2" fill="#0e4429"/><rect x="70" width="10" height="10" rx="2" fill="#161b22"/><rect x="84" width="10" height="10" rx="2" fill="#161b22"/><rect x="98" width="10" height="10" rx="2" fill="#26a641"/><rect x="112" width="10" height="10" rx="2" fill="#0e4429"/><rect x="126" width="10" height="10" rx="2" fill="#006d32"/><rect x="140" width="10" height="10" rx="2" fill="#161b22"/><rect x="154" width="10" height="10" rx="2" fill="#39d353"/>
+    <!-- Row 2 -->
+    <rect y="14" width="10" height="10" rx="2" fill="#161b22"/><rect x="14" y="14" width="10" height="10" rx="2" fill="#006d32"/><rect x="28" y="14" width="10" height="10" rx="2" fill="#0e4429"/><rect x="42" y="14" width="10" height="10" rx="2" fill="#161b22"/><rect x="56" y="14" width="10" height="10" rx="2" fill="#26a641"/><rect x="70" y="14" width="10" height="10" rx="2" fill="#0e4429"/><rect x="84" y="14" width="10" height="10" rx="2" fill="#161b22"/><rect x="98" y="14" width="10" height="10" rx="2" fill="#0e4429"/><rect x="112" y="14" width="10" height="10" rx="2" fill="#006d32"/><rect x="126" y="14" width="10" height="10" rx="2" fill="#39d353"/><rect x="140" y="14" width="10" height="10" rx="2" fill="#161b22"/><rect x="154" y="14" width="10" height="10" rx="2" fill="#0e4429"/>
+    <!-- Row 3 -->
+    <rect y="28" width="10" height="10" rx="2" fill="#006d32"/><rect x="14" y="28" width="10" height="10" rx="2" fill="#26a641"/><rect x="28" y="28" width="10" height="10" rx="2" fill="#161b22"/><rect x="42" y="28" width="10" height="10" rx="2" fill="#0e4429"/><rect x="56" y="28" width="10" height="10" rx="2" fill="#006d32"/><rect x="70" y="28" width="10" height="10" rx="2" fill="#39d353"/><rect x="84" y="28" width="10" height="10" rx="2" fill="#161b22"/><rect x="98" y="28" width="10" height="10" rx="2" fill="#006d32"/><rect x="112" y="28" width="10" height="10" rx="2" fill="#0e4429"/><rect x="126" y="28" width="10" height="10" rx="2" fill="#161b22"/><rect x="140" y="28" width="10" height="10" rx="2" fill="#26a641"/><rect x="154" y="28" width="10" height="10" rx="2" fill="#0e4429"/>
+    <!-- More rows implied... -->
+  </g>
+  
+  <!-- Stats -->
+  <text x="50" y="290" fill="#8b949e" font-family="system-ui" font-size="12">358 days remaining</text>
+  <text x="200" y="290" fill="#8b949e" font-family="system-ui" font-size="12">7 days completed</text>
+</svg>
