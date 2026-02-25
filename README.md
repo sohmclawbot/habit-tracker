@@ -2,6 +2,8 @@
 
 A beautiful, GitHub-inspired habit tracker web app with a dark theme and contribution graph visualization.
 
+![Habit Tracker Preview](preview.svg)
+
 ## Features
 
 - **GitHub-inspired dark theme** — Clean, modern UI matching GitHub's aesthetic
